@@ -1,0 +1,20 @@
+Team Meeting Notes for June 12, 2023
+
+Topics: 
+
+TODO by Wednesday:
+- (bri) install ardruino on laptop and have setup for lidar testing.
+- (bri) bring uart cable and cables
+- get ssh working on desktop computer (misi)
+- flash esp32 (misi)
+- (bri) install ros2 on computer with linux
+- (bri) get ssh working on desktop computer
+- read a section of ros 2 documentation (jordy, misi, bri)
+- - https://docs.ros.org/en/humble/index.html
+
+TODO on Wednesday meeting : 
+- uploading code to arduino to test LIDAR (bri)
+- upload esp32 with demo code
+
+Completed : 
+- submit a 3d print to local library (comment : should be done by this week)
