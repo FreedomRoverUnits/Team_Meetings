@@ -1,0 +1,23 @@
+Team Meeting Notes for June 14, 2023
+
+Topics:
+
+TODO by Friday meeting: 
+- order IMU
+- order esp32
+- flash esp32 
+- setup ssh on misi computer
+- read a section of ros 2 documentation (jordy, misi, bri)
+- - https://docs.ros.org/en/humble/index.html
+- disconnect connectors from lidar
+
+Todo during Friday meeting: 
+- test lidar (if connectors come in time)
+- build rover (3d print)
+- make progress with flashing
+
+TODO over the Weekend: 
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+	- add summary of may notes
