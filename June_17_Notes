@@ -1,0 +1,28 @@
+Team Meeting Notes for June 17, 2023
+
+Topics:
+
+TODO by Wednesday meeting: 
+- order IMU
+- order raspberry pico
+- flash esp32 
+- setup ssh through differen networks (brit and misi)
+	-- https://askubuntu.com/questions/749230/is-it-possible-to-ssh-between-two-different-network 
+	-- https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/ 
+- read a section of ros 2 documentation (jordy, misi, bri)
+- - https://docs.ros.org/en/humble/index.html
+- write the code to capture info from lidar/update code on how to get video
+	-- https://www.youtube.com/watch?v=VhbFbxyOI1k
+	-- watch 25:47 min
+
+- find screw size
+
+Todo during Wednesday meeting: 
+- test lidar (if connectors come in time)
+- starting testing or have video of it working (misi)
+
+TODO over the Weekend: 
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+	- add summary of may notes
