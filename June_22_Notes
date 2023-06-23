@@ -1,0 +1,37 @@
+Team Meeting Notes for June 22, 2023
+
+Topics:
+
+TODO by Sunday meeting: 
+- have of what the microRos code for esp32 (esp32 is having issues when running the program, and gets stuck on line 54)
+- setup ssh through differen networks (brit and misi)
+	-- https://askubuntu.com/questions/749230/is-it-possible-to-ssh-between-two-different-network 
+	-- https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/ 
+- read a section of ros 2 documentation (jordy, misi, bri)
+- - https://docs.ros.org/en/humble/index.html
+- write the code to capture info from lidar/update code on how to get video
+	-- https://www.youtube.com/watch?v=VhbFbxyOI1k
+	-- watch 25:47 min
+- create an outline for the testing the lidar (brittney)
+- find screw size for 3d print
+- research for how to get it setup and working, look at links in discord by jordy
+
+Todo during Sunday meeting: 
+- test lidar (if connectors come in time)
+- starting testing or have video of it working (misi)
+- orientation, regarding what we have done, check up on our current status 
+
+TODO over the Weekend: 
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+	- add summary of may notes
+
+
+JULY goal is to create a library with function calls for our sensors
+August goal - TBA
+
+In charge of components:
+Brittney - lidar
+Misi - IMU and accelorator 
+Jordy - PID encoder
