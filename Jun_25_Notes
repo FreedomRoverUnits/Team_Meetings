@@ -1,0 +1,50 @@
+Team Meeting Notes for June 22, 2023
+
+Topics:
+
+TODO by Wednesday meeting: 
+- Flash one rasberry pico with microros
+- Have arduino code for lidar testing
+	-- use arduino tutorial for rx/tx and build from that.
+- Soldering components rasberry pico
+- RLC/RCLC studying more on this to debug line code for microRos 
+- Solder lidar wires to larger wires for better connection
+- setup ssh through differen networks (brit and misi) (VPN setup, looking into this more )
+	-- https://askubuntu.com/questions/749230/is-it-possible-to-ssh-between-two-different-network 
+	-- https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/ 
+- read a section of ros 2 documentation (jordy, misi, bri)
+	-- https://docs.ros.org/en/humble/index.html
+
+TODO during Wednesday meeting:
+- Flash second rasberry pico with arduino to test lidar
+- Getting done with the arduino tutorial for lidar
+
+TODO through the Week: 
+- Try to assembly the entire rover to get a feel/understanding of how everything will look together (friday)
+	-- bring hotglue gun (maybe)
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+	- add summary of may notes
+
+
+Final Descision: 
+- Decided to use kabob sticks and hotglue to secure rods on prototype of rover
+
+NOTES: 
+JULY goal is to create a library with function calls for our sensors
+August goal - TBA
+
+In charge of components:
+Brittney - lidar
+Misi - IMU and accelorator 
+Jordy - PID encoder
+
+
+Findings:
+- find screw size for 3d print
+	* I found that #3 screw and #4 work (haven't tested it yet), just with measurement taking. 
+  However none of the screws available online have a length of more than an 1in, which leaves us with a small space to work with if we want to layer on top. 
+  So my suggestion is to either make the holes individually larger with a soldering kit or we use wooden sticks like kabob sticks and use hot glue to secure it in place,
+  this also helps avoiding shorts we could get with the metal screws. 
+  I have also looked into bolts however it seems that the diameter of 3mm or 1/10" is too small and not commercialized and not available to use at the moment.
