@@ -1,0 +1,50 @@
+Team Meeting Notes for July 8, 2023
+
+Topics:
+
+TODO by Wednesday meeting: 
+- RLC/RCLC studying more on this to debug line code for microRos (esp32)
+	- share more info on the issue in the discord chat (misi)
+- Review code for lidar and libraries to start to code our own library for our project. (brittney)
+	- also review code from discord by jordy
+- pre-Assembly rover
+- Ask jordy regarding PID
+- Discuss library regarding microROS
+- Rewire Lidar's (ask jordy for his Lidar)
+- Ask Jordy for all the componets 
+- 
+- setup ssh through differen networks (brit and misi) (VPN setup, looking into this more )
+	-- https://askubuntu.com/questions/749230/is-it-possible-to-ssh-between-two-different-network 
+	-- https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/ 
+- read a section of ros 2 documentation (jordy, misi, bri)
+	-- https://docs.ros.org/en/humble/index.html
+
+TODO during Wednesday meeting:
+- test out preassembled rover and suggest fixes
+- order more 3-d part for rover
+	- KEARNS : main1v2 at 100%
+	- Hunter:
+		- part13 in different sizes: 120%, 130%, 140%, 150% 160%
+		- part2 at 100% (2)
+
+- sharing information regarding how to flash microRos on esp32, and if we need the full colcon library
+- share information regarding lidar libraries for microRos
+
+TODO through the Week: 
+- Try to assembly the entire rover to get a feel/understanding of how everything will look together (friday)
+	-- bring hotglue gun (maybe)
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+	- add summary of may notes
+
+NOTES: 
+We got the second rasberry pico to work with the lidar, re-soldering did the trick.
+
+JULY goal is to create a library with function calls for our sensors
+August goal - TBA
+
+In charge of components:
+Brittney - lidar
+Misi - IMU and accelorator 
+Jordy - PID encoder
