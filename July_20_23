@@ -1,0 +1,83 @@
+Team Meeting Notes for July 20, 2023
+
+Topics:
+Verbal Discussion: 
+- Make a generic microRos appliction
+  - gpio: setting on and off
+    - device : motor bridge
+    - device : rotary encoder
+  - Timers: 
+    - usage on : PID and/or creating a PWM
+  - I2C : 
+    - device: IMU
+  - uart: 
+    - device: Lidar
+  - Publisher/Subcriber nodes of MicroRos
+    - Notes: look into finding tutorial on how this works 
+  - interrupts: 
+    - device : rotarty encoders
+  
+- Review the datasheet for esp32 as they might have different address, etc.
+  - misi sent datasheets to me on discord
+- Find and post images of project nodes for entire system
+Notes on different stages in our project: 
+  - First stage: Rover itself
+    - being able to communicate with all the components on an esp32 and using microRos todo so
+  - Second stage: Rover communicating with (local) Server
+    - rover is able to communicate to with server and server is able to communicate back to rover
+  - Third stage: Server sending Task to Rover
+    - server instructs rovers on a (single) task
+    - Note: Stretch goal: have a user communicate with the server to do a task
+  - Fourth  stage: Server is able to communicate with multiple rovers
+    - Server is sending packets to rovers and managing all that information same with rovers sending packets to Server.
+
+Goal for August or when schools starts:
+  - have the rover individually working 
+    - misi will be very happy
+Goal for next week: 
+  - tutorial for encoder
+    - keep track of : 1. how much time has past , 2. counting 
+    - interrupt: when it goes high 
+  - Testing the router without internet:
+  - test all the components to make sure they all work.
+    - this means we need to solder all our components we will be using or at least have everything with us to do so.
+Goal for today:
+  - get incontact with jordy!!!! (ASAP)
+  - Find and post images of project nodes for entire system
+
+
+TODO by Saturday meeting: 
+- Have tutorials for a generic microRos application (look above for what we need)
+- Review code for lidar and libraries to start to code our own library for our project. (brittney)
+	- also review code from discord by jordy
+- pre-Assembly rover 
+	- have rover chassis built
+- Discuss library regarding microROS
+- Read through Datasheet for esp32
+- Setup microsoft laptop linux (brittney)
+- read a section of ros 2 documentation (jordy, misi, bri)
+	-- https://docs.ros.org/en/humble/index.html
+- attempt to flash microRos to raspberry pico (Brittney)
+- setup ssh through differen networks (brit and misi) (VPN setup, looking into this more )
+	-- https://askubuntu.com/questions/749230/is-it-possible-to-ssh-between-two-different-network 
+	-- https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/ 
+
+TODO during Saturday meeting:
+- share tutorials and knowledge
+- share information regarding lidar libraries for microRos
+
+TODO through the Week: 
+- Try to assembly the entire rover to get a feel/understanding of how everything will look together (Saturday)
+	- bring hotglue gun (maybe)
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+	- add summary of may notes
+
+JULY goal is to create a library with function calls for our sensors
+August goal - to have the rover functioning by itself
+
+In charge of components:
+Brittney - lidar
+Misi - IMU and accelorator 
+Jordy - PID encoder
