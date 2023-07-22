@@ -1,0 +1,82 @@
+Team Meeting Notes for July 22, 2023
+
+Verbal Discussion: 
+1. Can we find a way to make a project microRos Right away, through VS Code (misi : https://github.com/micro-ROS/micro_ros_platformio)
+  - misi: was trying to get this to work, but ran into issues
+2. Reviewed the tutorials found, however many of the tutorials were for arduino ide and not ESP-idf
+  - as a group we decided to go down the route of using the ESP-IDF framework as it gives us access to the entire library for esp32
+  - these is a link to the espressIF official application examples: https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/peripherals/i2c.html#application-example 
+3. We need to learn Ros2 -> RCL/RCLC -> microROS
+  - https://micro.ros.org/docs/tutorials/programming_rcl_rclc/overview/
+4. pics for our system with nodes, are in discord in our group chat (links below)
+  https://cdn.discordapp.com/attachments/1062480773686513674/1132344569640538245/rn_image_picker_lib_temp_d4007cc5-5afc-4aa1-918d-7862f809babd.jpg
+  https://cdn.discordapp.com/attachments/1062480773686513674/1132344570080919633/rn_image_picker_lib_temp_ee2a9da5-e811-4975-96d7-dfbd068a5929.jpg
+5. Need to learn Nav2 and how to run Agent
+  - https://navigation.ros.org/
+6. 
+
+--------------------------------------------------------------------------------------------------------------------
+TODO'S
+TODO by Wednesday meeting: 
+- setup espressif-idf program on laptop
+  -- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/ 
+- start on this tutorial first : gpio, timers?, pwm all for the motor_driver
+  -- https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/peripherals/timer.html
+- Review code for lidar and libraries to start to code our own library for our project. (brittney)
+	- also review code from discord by jordy
+- pre-Assembly rover 
+	- have rover chassis built
+  - brittney will talk with librarian regarding this
+- Discuss library regarding microROS
+- Read through Datasheet for esp32
+- improve diagram drawings for entire system 
+  - images in discord
+- Setup microsoft laptop linux (brittney)
+
+TODO during Wednesday meeting:
+- share tutorials and knowledge
+- share information regarding lidar libraries for microRos
+- getting pwm to work with motor driver
+- to start seeting up pid control with rotarty encoders
+  - goal is to have pid somewhat working by the end of this meeting
+
+TODO through the Week: 
+- Try to assembly the entire rover to get a feel/understanding of how everything will look together (Saturday)
+	- bring hotglue gun (maybe)
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+	- add summary of may notes
+- read a section of ros 2 documentation (jordy, misi, bri)
+	-- https://docs.ros.org/en/humble/index.html
+- read documentation for RCL/RCLC
+  -- https://micro.ros.org/docs/tutorials/programming_rcl_rclc/overview/
+- read documentation for Nav2
+  -- https://navigation.ros.org/
+--------------------------------------------------------------------------------------------------------------------
+NOTES: 
+Notes on different stages in our project: 
+  - First stage: Rover itself
+    - being able to communicate with all the components on an esp32 and using microRos todo so
+  - Second stage: Rover communicating with (local) Server
+    - rover is able to communicate to with server and server is able to communicate back to rover
+  - Third stage: Server sending Task to Rover
+    - server instructs rovers on a (single) task
+    - Note: Stretch goal: have a user communicate with the server to do a task
+  - Fourth  stage: Server is able to communicate with multiple rovers
+    - Server is sending packets to rovers and managing all that information same with rovers sending packets to Server.
+--------------------------------------------------------------------------------------------------------------------
+GOALS:
+Goal for August or when schools starts:
+  - have the rover individually working 
+    - misi will be very happy
+Goal for next week: 
+  - tutorial for encoder
+    - keep track of : 1. how much time has past , 2. counting 
+    - interrupt: when it goes high 
+  - Testing the router without internet:
+  - test all the components to make sure they all work.
+    - this means we need to solder all our components we will be using or at least have everything with us to do so.
+Goal for today:
+  - get incontact with jordy!!!! (ASAP)
+  - Find and post images of project nodes for entire system
