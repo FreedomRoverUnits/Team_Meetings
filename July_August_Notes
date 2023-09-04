@@ -1,0 +1,42 @@
+Team Meeting Notes for July 24 - All of August, 2023
+
+-------------------------------------------------------------------------------------------------------------------
+What was Completed in the last week of July and the entire month of August:
+- setup espressif-idf program on laptop
+  -- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/ 
+- start on this tutorial first : gpio, timers?, pwm all for the motor_driver
+  -- https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/peripherals/timer.html
+- pre-Assembly rover 
+	- have rover chassis built
+  - brittney will talk with librarian regarding this (I did and we have our first rover built)
+- Discuss library regarding microROS
+- Read through Datasheet for esp32
+- share tutorials and knowledge
+- share information regarding lidar libraries for microRos
+- getting pwm to work with motor driver
+- to start seeting up pid control with rotarty encoders
+  - goal is to have pid somewhat working by the end of August (still in progress)
+- Try to assembly the entire rover to get a feel/understanding of how everything will look together (Saturday)
+- update the website (bri and misi)
+	- update component pics with our own pics
+	- add team meeting notes as well
+- read a section of ros 2 documentation (jordy, misi, bri)
+	-- https://docs.ros.org/en/humble/index.html
+- read documentation for RCL/RCLC
+  -- https://micro.ros.org/docs/tutorials/programming_rcl_rclc/overview/
+- read documentation for Nav2
+  -- https://navigation.ros.org/
+- improve diagram drawings for entire system 
+  - images in discord
+--------------------------------------------------------------------------------------------------------------------
+NOTES: 
+Notes on different stages in our project: 
+  - First stage: Rover itself
+    - being able to communicate with all the components on an esp32 and using microRos todo so
+  - Second stage: Rover communicating with (local) Server
+    - rover is able to communicate to with server and server is able to communicate back to rover
+  - Third stage: Server sending Task to Rover
+    - server instructs rovers on a (single) task
+    - Note: Stretch goal: have a user communicate with the server to do a task
+  - Fourth  stage: Server is able to communicate with multiple rovers
+    - Server is sending packets to rovers and managing all that information same with rovers sending packets to Server.
