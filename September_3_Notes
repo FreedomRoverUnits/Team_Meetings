@@ -1,0 +1,48 @@
+Team Meeting Notes for July 23, 2023
+
+Verbal Discussion: 
+1. Created meeting times to work on capstone together
+2. review our goals as a team 
+3. Update the website
+4. Update the presentation slide
+5. We will meet as a time before class starts on Tuesday to rehearse for our presentation
+6. Uploading photos of all the components and rover put together for the website
+--------------------------------------------------------------------------------------------------------------------
+TODO'S
+TODO by Tuesday meeting: 
+- Have pictures for website ready 
+- Update the website regarding the tutorials we followed to test a component
+- Get Lidar and Microros working
+- Discuss library regarding microROS
+- Read through Datasheet for esp32
+- improve diagram drawings for entire system 
+  - add images to discord
+TODO by Thursday meeting: 
+- have rehearsed presentation
+- Demonstrate PID control with uart/hc05 or Wifi given time
+
+TODO during Thursday meeting:
+- share individual progress
+- share information regarding lidar libraries for microRos
+- getting pwm to work with motor driver
+- to start seeting up pid control with rotarty encoders
+
+TODO through the Week: 
+- Try to assembly the entire rover to get a feel/understanding of how everything will look together (Saturday)
+	- bring hotglue gun (maybe)
+- read a section of ros 2 documentation (jordy, misi, bri)
+	-- https://docs.ros.org/en/humble/index.html
+- read documentation for RCL/RCLC
+  -- https://micro.ros.org/docs/tutorials/programming_rcl_rclc/overview/
+- read documentation for Nav2
+  -- https://navigation.ros.org/
+--------------------------------------------------------------------------------------------------------------------
+GOALS:
+Goal for September or when schools starts:
+  - have the rover individually working and communicating with the use of agent
+Goal for next week: 
+  - assembling entire rover together 
+  - test all the components to make sure they all work.
+    - this means we need to solder all our components we will be using or at least have everything with us to do so.
+Goal for today:
+  - Get pictures on the website
